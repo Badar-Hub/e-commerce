@@ -6,12 +6,10 @@
 
 <script lang="ts">
 import Base from "@/components/Base.vue";
+import { Component } from "vue-property-decorator";
 
-export default class Home extends Base{
-
-}
+@Component
+export default class Home extends Base {}
 </script>
 
-<style lang="scss">
-
-</style>
+<style></style>

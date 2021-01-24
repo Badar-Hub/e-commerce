@@ -9,7 +9,12 @@ export default class PagedRequest {
 
   public filter = "";
 
-  constructor(page: number, pageSize: number, filterOn = "", descending = false) {
+  constructor(
+    page: number,
+    pageSize: number,
+    filterOn = "",
+    descending = false
+  ) {
     this.page = page;
     this.pageSize = pageSize;
     this.filterOn = filterOn;

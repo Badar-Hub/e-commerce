@@ -21,7 +21,9 @@ export default class LeadTimeConfigurationsService {
   }
 
   public getCollectionMetadata(): Promise<CollectionMetadata> {
-    return this.ApiSvc.get<CollectionMetadata>(`${this.baseResource}/$metadata`);
+    return this.ApiSvc.get<CollectionMetadata>(
+      `${this.baseResource}/$metadata`
+    );
   }
 
   public getMetadata(): Promise<metadata> {

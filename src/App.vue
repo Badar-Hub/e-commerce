@@ -1,15 +1,11 @@
 <template>
-    <router-view/>
+  <router-view />
 </template>
 
 <script lang="ts">
 import Base from "./components/Base.vue";
 
-export default class App extends Base {
-
-}
+export default class App extends Base {}
 </script>
 
-<style>
-
-</style>
+<style></style>
